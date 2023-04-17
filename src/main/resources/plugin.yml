@@ -1,0 +1,15 @@
+name: Staff
+version: '${project.version}'
+main: com.rune.staff.Main
+api-version: 1.19
+commands:
+  ask:
+    description: stel een vraag
+  askmenu:
+    description: bekijk alle openstaande vragen.
+  askreply:
+    description: reageer op een vraag.
+    aliases: [askreact]
+  askhistory:
+    description: reageer de history van een vraag.
+    aliases: [askhist]
